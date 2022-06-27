@@ -42,17 +42,14 @@ Predict housing price using linear regression
 
 ## Procedure
 * Cleaning 
-- [ ] Check the data types of columns, fixing incorrect ones
-- [ ] Filtering null values and zeros. 
+- [x] Check the data types of columns, fixing incorrect ones
+- [x] Filtering null values and zeros. 
 - [ ] Removing duplicates
 - [ ] Removing outliers
-- [ ] Checking multicolinearity
+- [x] Checking multicolinearity with heat map
 * EDA 
-- [ ] Check distribution of numerical variables
-- [ ] Generate heat maps
-- [ ] Box plots (filtering outliers)
-- [ ] Data description (statistics for mean, stdev etc)
-- [ ] Drop features that are correlated 
+- [ ] Check distribution of features
+- [ ] Statistics for mean, stdev, etc
 - [ ] Price vs. longitude and latitude
 * Modeling 
 - [ ] Split data into numerical and categorical columns
