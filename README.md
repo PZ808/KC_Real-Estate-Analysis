@@ -53,6 +53,7 @@ Predict housing price using linear regression
 - [ ] Box plots (filtering outliers)
 - [ ] Data description (statistics for mean, stdev etc)
 - [ ] Drop features that are correlated 
+- [ ] Price vs. longitude and latitude
 * Modeling 
 - [ ] Split data into numerical and categorical columns
 - [ ] Identify target variable and test and train data
