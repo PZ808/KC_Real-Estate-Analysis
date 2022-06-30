@@ -44,16 +44,16 @@ Predict housing price using linear regression
 * Cleaning 
 - [x] Check the data types of columns, fixing incorrect ones
 - [x] Filtering null values and zeros. 
-- [ ] Removing duplicates
-- [ ] Removing outliers
+- [x ] Removing duplicates
+- [x] Removing outliers
 - [x] Checking multicolinearity with heat map
 * EDA 
-- [ ] Check distribution of features
-- [ ] Statistics for mean, stdev, etc
-- [ ] Price vs. longitude and latitude
+- [x] Check distribution of features
+- [x] Statistics for mean, stdev, etc
+- [x] Price vs. longitude and latitude
 * Modeling 
-- [ ] Split data into numerical and categorical columns
-- [ ] Identify target variable and test and train data
-- [ ] Transform the data when necessary (etc log transform)
-- [ ] Build X,y regression model 
-- [ ] Analyse results (R2, mse, etc)
+- [x] Split data into numerical and categorical columns
+- [x] Identify target variable and test and train data
+- [x] Transform the data when necessary (etc log transform)
+- [x] Build X,y regression model 
+- [x] Analyse results (R2, mse, etc)
