@@ -1,4 +1,4 @@
-# IH_MIDTERM: Home price prediction using linear regression modeling
+# Home price prediction using linear regression modeling
 
 ## Project Goal
 ---
