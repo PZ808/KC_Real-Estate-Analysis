@@ -1,8 +1,11 @@
-# Home price prediction using linear regression modeling
+# King County Real Estate Analysis  
 
-## Project Goal
----
-Predict housing price using linear regression
+## Summary
+We fit a least squares linear regression model to housing price data taken from the market in one of the most sought after counties in the 
+United States, King County Washington. King County, which is named after the famous civil rights leader M.L. King, is located in the state of Washington and contains the Seatle metropolitan area.  The King County population, which lands about 2.3 million in total, includes a number of the nations richest people such as billionares Bill Gates and Jeff Bezos.  
+ Due to its unique geography and reputation as a residence for the extremely wealthy, its houses push into the upper registers of price and it provides an interesting case study. 
+ 
+The repo contains a Jupyter notebook and Tableaux workbook featuring an interactive heat map showing the spatial variations in price, several visualizations of the data,  and a model which captures about 85% of the variability in the price with respect to input features. 
 
 ## Data 
 ---
@@ -40,20 +43,3 @@ Predict housing price using linear regression
 
 [Source Center for Spatial Data Science](https://geodacenter.github.io/data-and-lab/KingCounty-HouseSales2015/) 
 
-## Procedure
-* Cleaning 
-- [x] Check the data types of columns, fixing incorrect ones
-- [x] Filtering null values and zeros. 
-- [x ] Removing duplicates
-- [x] Removing outliers
-- [x] Checking multicolinearity with heat map
-* EDA 
-- [x] Check distribution of features
-- [x] Statistics for mean, stdev, etc
-- [x] Price vs. longitude and latitude
-* Modeling 
-- [x] Split data into numerical and categorical columns
-- [x] Identify target variable and test and train data
-- [x] Transform the data when necessary (etc log transform)
-- [x] Build X,y regression model 
-- [x] Analyse results (R2, mse, etc)
